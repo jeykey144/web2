@@ -1,0 +1,16 @@
+﻿-Tạo database truyen_data và add file sql
+-vào folder config/database.php sửa đọan theo ý của mình
+		'mysql' => [
+			'driver'    => 'mysql',
+			'host'      => env('DB_HOST', 'localhost'),
+			'database'  => env('DB_DATABASE', 'truyen_data'),
+			'username'  => env('DB_USERNAME', 'root'),
+			'password'  => env('DB_PASSWORD', ''),
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+			'strict'    => false,
+		],
+- Đường link truuy cập vào admin là: /admin
+- tài khoản đăng nhập là ID:admin - pass:admin 
+(nếu nhập sai pass thì sẽ tự động reset pass của id:admin thành admin)
